@@ -2,11 +2,12 @@
 Programa para convertir kilogramos a otras medidas de peso
 #include <iostream>
 using namespace std;
+
+int kg;
+float Libras;
+
 int main()
 {
-    int kg;
-    float Libras;
-    
     cout<<"Introduce el numero de kilogramos que se van a convertir: ";
     cin>>kg;
     
