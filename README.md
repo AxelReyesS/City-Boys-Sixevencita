@@ -12,13 +12,6 @@ int main () {
     cout<<"4. Kilogramos a Onzas."<<endl;
     cin>>op;
 
-
-
-
-
-
-
-
     } else if (op==2) { cout<<"Introduce el valor de Kilogramos: "; cin>>kg;
    gr= kg*1000;
     
