@@ -1,22 +1,18 @@
-# City-Boys-Sixevencita
-Programa para convertir kilogramos a otras medidas de peso
 #include <iostream>
 using namespace std;
 
-int kg;
-float Libras;
-
-int main()
-{
-    cout<<"Introduce el numero de kilogramos que se van a convertir: ";
-    cin>>kg;
+int main () {
     
-    Libras=kg*2.2046;
+    int op, kg, ton, gr, lbr, onz;
     
-    cout<<"El resultado en libras es: "<<Libras;
+    cout<<"Escribe el numero de la opcion que necesitas."<<endl;
+    cout<<"1. Kilogramos a Toneladas."<<endl;
+    cout<<"2. Kilogramos a Gramos."<<endl;
+    cout<<"3. Kilogramos a Libras."<<endl;
+    cout<<"4. Kilogramos a Onzas."<<endl;
+    cin>>op;
 
-    return 0;
-} else {
+    } else {
         cout<<"Escribiste opcion invalida";
     }
 
