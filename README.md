@@ -16,4 +16,9 @@ int main()
     cout<<"El resultado en libras es: "<<Libras;
 
     return 0;
+} else {
+        cout<<"Escribiste opcion invalida";
+    }
+
+    return 0;
 }
