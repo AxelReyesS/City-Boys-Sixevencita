@@ -12,6 +12,14 @@ int main () {
     cout<<"4. Kilogramos a Onzas."<<endl;
     cin>>op;
 
+    } else if (op==4) {
+        cout<<"Introduce el valor de Kilogramos: ";
+        cin>>kg;
+        
+        onz= kg*35.274;
+        
+        cout<<"Los Kilogramos convertidos a Onzas son: "<<onz;
+
     } else {
         cout<<"Escribiste opcion invalida";
     }
