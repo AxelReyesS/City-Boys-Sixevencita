@@ -12,6 +12,14 @@ int main () {
     cout<<"4. Kilogramos a Onzas."<<endl;
     cin>>op;
 
+    if (op==1){
+        cout<<"Introduce el valor de Kilogramos: ";
+        cin>>kg;
+        
+        ton= kg/1000;
+        
+        cout<<"Loa Kilogramos convertidos a Toneladas son: "<<ton;
+
     } else {
         cout<<"Escribiste opcion invalida";
     }
