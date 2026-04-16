@@ -12,10 +12,37 @@ int main () {
     cout<<"4. Kilogramos a Onzas."<<endl;
     cin>>op;
 
-    } else if (op==2) { cout<<"Introduce el valor de Kilogramos: "; cin>>kg;
-   gr= kg*1000;
+    if (op==1){
+        cout<<"Introduce el valor de Kilogramos: ";
+        cin>>kg;
+        
+        ton= kg/1000;
+        
+        cout<<"Loa Kilogramos convertidos a Toneladas son: "<<ton;
+        
+    } else if (op==2) {
+        cout<<"Introduce el valor de Kilogramos: ";
+        cin>>kg;
+        
+        gr= kg*1000;
+        
+        cout<<"Los Kilogramos convertidos a Gramos: "<<gr;
     
-    cout<<"Los Kilogramos convertidos a Gramos: "<<gr;
+    } else if (op==3) {
+        cout<<"Introduce el valor e kilogramos: ";
+        cin>>kg;
+        
+        lbr= kg*2.2046;
+        
+        cout<<"Los Kilogramos convertidos a Libras son: "<<lbr;
+        
+    } else if (op==4) {
+        cout<<"Introduce el valor de Kilogramos: ";
+        cin>>kg;
+        
+        onz= kg*35.274;
+        
+        cout<<"Los Kilogramos convertidos a Onzas son: "<<onz;
 
     } else {
         cout<<"Escribiste opcion invalida";
